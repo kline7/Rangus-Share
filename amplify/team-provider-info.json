@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "rangusshare41aa42b9": {}
+      },
+      "api": {
+        "rangusshare": {}
+      },
+      "storage": {
+        "imagestorage": {}
       }
     }
   }
