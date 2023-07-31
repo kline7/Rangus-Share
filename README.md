@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Deleting the resources
+
+### Removing individual services
+
+To remove individual services, you can use the Amplify remove command:
+
+```Bash
+amplify remove auth
+
+? Choose the resource you would want to remove: <your-service-name>
+```
+
+Then run the Amplify push command:
+
+```Bash
+amplify push
+```
+
+### Deleting the entire project
+
+To delete the project and the associated resources, you can run the Amplify delete command:
+
+```Bash
+amplify delete
+```

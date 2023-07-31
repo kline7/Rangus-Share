@@ -69,7 +69,7 @@ const App = ({ signOut }) => {
 
   return (
     <View className="App">
-      <Heading level={1}>My Notes App</Heading>
+      <Heading level={1}>Rangus Photo Share</Heading>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
           <TextField
@@ -113,7 +113,7 @@ const App = ({ signOut }) => {
             </Text>
             <Text as="span">{note.description}</Text>
             {note.image && (
-              <Image
+              <img
                 src={note.image}
                 alt={`visual aid for ${notes.name}`}
                 style={{ width: 400 }}
